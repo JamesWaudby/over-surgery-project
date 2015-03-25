@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7219FCAE-B640-46EE-8F11-106ECE50D675}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OverSurgery</RootNamespace>
+    <AssemblyName>OverSurgery</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OverSurgery.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Absence.cs" />
+    <Compile Include="FormAddAbsence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddAbsence.Designer.cs">
+      <DependentUpon>FormAddAbsence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminController.cs" />
+    <Compile Include="Appointment.cs" />
+    <Compile Include="BusinessMetaLayer.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="FormAddAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddAppointment.Designer.cs">
+      <DependentUpon>FormAddAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPatient.Designer.cs">
+      <DependentUpon>FormAddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddStaff.Designer.cs">
+      <DependentUpon>FormAddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppointmentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppointmentDetails.Designer.cs">
+      <DependentUpon>FormAppointmentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFindPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFindPatient.Designer.cs">
+      <DependentUpon>FormFindPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFindStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFindStaff.Designer.cs">
+      <DependentUpon>FormFindStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMedical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMedical.Designer.cs">
+      <DependentUpon>FormMedical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrescriptionDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrescriptionDetails.Designer.cs">
+      <DependentUpon>FormPrescriptionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPassword.Designer.cs">
+      <DependentUpon>FormResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTestDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTestDetails.Designer.cs">
+      <DependentUpon>FormTestDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginController.cs" />
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementController.cs" />
+    <Compile Include="MedicalController.cs" />
+    <Compile Include="Medicine.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="PatientSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientSearch.Designer.cs">
+      <DependentUpon>PatientSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="Prescription.cs" />
+    <Compile Include="Staff.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffSearch.Designer.cs">
+      <DependentUpon>StaffSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs" />
+    <Compile Include="UserSession.cs" />
+    <Compile Include="Validator.cs" />
+    <EmbeddedResource Include="FormAddAbsence.resx">
+      <DependentUpon>FormAddAbsence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddAppointment.resx">
+      <DependentUpon>FormAddAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPatient.resx">
+      <DependentUpon>FormAddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddStaff.resx">
+      <DependentUpon>FormAddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAppointmentDetails.resx">
+      <DependentUpon>FormAppointmentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFindPatient.resx">
+      <DependentUpon>FormFindPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFindStaff.resx">
+      <DependentUpon>FormFindStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMedical.resx">
+      <DependentUpon>FormMedical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrescriptionDetails.resx">
+      <DependentUpon>FormPrescriptionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPassword.resx">
+      <DependentUpon>FormResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTestDetails.resx">
+      <DependentUpon>FormTestDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientSearch.resx">
+      <DependentUpon>PatientSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StaffSearch.resx">
+      <DependentUpon>StaffSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\user guide.pdf" />
+    <None Include="properties.dat" />
+    <None Include="Properties\DataSources\Absence.datasource" />
+    <None Include="Properties\DataSources\Appointment.datasource" />
+    <None Include="Properties\DataSources\Medicine.datasource" />
+    <None Include="Properties\DataSources\Patient.datasource" />
+    <None Include="Properties\DataSources\Prescription.datasource" />
+    <None Include="Properties\DataSources\Staff.datasource" />
+    <None Include="Properties\DataSources\Test.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\userguide.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgeryTest.dll
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgeryTest.pdb
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgery.exe
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgery.pdb
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.csprojResolveAssemblyReference.cache
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.dll
+\\Win-L410-Server\Netusers\jwaudby\My Documents\open surgery\open surgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.pdb
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.csprojResolveAssemblyReference.cache
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.dll
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgeryTest.dll
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgeryTest.pdb
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgery.exe
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\OverSurgery.pdb
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\obj\Debug\OverSurgeryTest.pdb
+D:\OverSurgery\OverSurgeryFixed\OverSurgeryTest\bin\Debug\MySql.Data.dll

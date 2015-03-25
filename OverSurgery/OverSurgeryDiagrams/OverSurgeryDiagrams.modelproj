@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9511831a-25fb-4812-96a3-732ffc0ae9c1}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>OverSurgeryDiagrams</Name>
+    <RootNamespace>OverSurgeryDiagrams</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Class Diagrams\Add Absence.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Absence.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Absence.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Add Appointment Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Appointment Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Appointment Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Add Patient Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Patient Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Patient Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Add Prescription.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Prescription.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Prescription.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Add Staff Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Staff Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Staff Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Add Test Results.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Add Test Results.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Add Test Results.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Cancel Appointment.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Cancel Appointment.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Cancel Appointment.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Check Staff Availability Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Check Staff Availability Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Check Staff Availability Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Check Staff On Duty Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Check Staff On Duty Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Check Staff On Duty Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Extend Prescription.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Extend Prescription.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Extend Prescription.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Find Patient Details Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Find Patient Details Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Find Patient Details Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Find Staff Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Find Staff Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Find Staff Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Login Class Diagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Login Class Diagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Login Class Diagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Modify Absence.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Modify Absence.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Modify Absence.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Modify Patient Details.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Modify Patient Details.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Modify Patient Details.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Modify Staff Details.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Modify Staff Details.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Modify Staff Details.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Absence.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Absence.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Add Absence.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Appointment Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Appointment Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Add Appointment Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Prescription.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Prescription.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Add Prescription.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Test Results.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Add Test Results.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Add Test Results.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Cancel Appointment.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Cancel Appointment.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Cancel Appointment.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Check Staff Availability Sequency Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Check Staff Availability Sequency Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Check Staff Availability Sequency Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Extend Prescription.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Extend Prescription.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Extend Prescription.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Patient Details - ID.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Patient Details - ID.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Find Patient Details - ID.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Patient Details - Name and Post Code.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Patient Details - Name and Post Code.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Find Patient Details - Name and Post Code.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Staff Details Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Find Staff Details Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Find Staff Details Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Absence.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Absence.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Modify Absence.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Patient Details.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Patient Details.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Modify Patient Details.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Staff Details.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Modify Staff Details.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Modify Staff Details.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Add Patient Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Add Patient Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 1\Add Patient Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Add Staff Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Add Staff Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 1\Add Staff Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Check Staff on Duty Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Check Staff on Duty Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 1\Check Staff on Duty Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Login Sequence Diagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 1\Login Sequence Diagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 1\Login Sequence Diagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Add Patient V2.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Add Patient V2.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 2\Add Patient V2.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Add Staff V2.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Add Staff V2.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 2\Add Staff V2.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Check Staff on Duty V2.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Check Staff on Duty V2.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 2\Check Staff on Duty V2.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Login V2.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence Diagrams\Version 2\Login V2.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence Diagrams\Version 2\Login V2.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Use Case Diagrams\Use Case Diagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Use Case Diagrams\Use Case Diagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Use Case Diagrams\Use Case Diagram.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\OverSurgeryDiagrams.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Class Diagrams" />
+    <Folder Include="Sequence Diagrams" />
+    <Folder Include="Sequence Diagrams\Version 2" />
+    <Folder Include="Sequence Diagrams\Version 1" />
+    <Folder Include="Use Case Diagrams" />
+  </ItemGroup>
+</Project>
